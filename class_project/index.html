@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Grim Reaper App</title>
+  <meta charset="utf-8">
+  <meta name="description" content="The Grim Reaper App">
+  <meta name="author" content="Luke Remy">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/slides" 
+    src="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>The Grim Reaper App</h1>
+    <h2>Find out how long you have left...</h2>
+    <p>Luke Remy<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Why does this matter?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>We all know we&#39;re going to die some day, doesn&#39;t it take the fun out of life knowing exactly which day you&#39;ll die on?!</p>
+
+<p>It turns out, as it were, in a certain manner of speaking, that indeed, the actual answer is no -- this is not the case at all!</p>
+
+<p>If you know which day you will die on, perhaps you can plan ahead.  Knowing when you will die ahead of time will allow you to do any of the following with time to spare:</p>
+
+<ul>
+<li>repair damaged relations with family members</li>
+<li>take that last trip you always wanted to take</li>
+<li>have breakfast for dinner, just &#39;cuz</li>
+<li>spend your every last dollar, just to spite the aforementioned family members </li>
+<li>anything else on your bucket list!</li>
+</ul>
+
+<p>Now doesn&#39;t all that sound fun?!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What sorcery is this?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>How do you actually know when I&#39;ll die?</h3>
+
+<p>As this is but a simple application, the prediction is based on the average life expectancy worldwide for the period 2010-2013, according to The World Factbook.</p>
+
+<p>This application uses the following average lifespans:</p>
+
+<ul>
+<li>females = 73.5 years</li>
+<li>males = 68.5 years</li>
+</ul>
+
+<p>See <a href="http://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy">Wikipedia</a> for source.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Fine. I&#39;m dying.</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>But how does this app calculate the date?</h3>
+
+<p>While this application is neither sophisticated, elegant, nor well-conceived, it is, perhaps, parsimonious.  This is owed to the fact that it requires but two inputs, namely, birthdate and gender.</p>
+
+<p>Below, I have selected as inputs for my function the demographic information corresponding with one Wardell Stephen Curry III, also known as <em>Threesus</em>, and soon-to-be 2015 NBA MVP.</p>
+
+<pre><code class="r">death(&quot;1988-03-14&quot;,&quot;Male&quot;)
+</code></pre>
+
+<pre><code>## [[1]]
+## [1] &quot;Thurs&quot;
+## 
+## [[2]]
+## [1] &quot;2056-09-14 PDT&quot;
+</code></pre>
+
+<p>As we can see, Steph will die on a Thursday - September 14, 2056, to be precise.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>But... Steph&#39;s never gonna die!</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>And if he does, won&#39;t he at least live longer?</h3>
+
+<p>If you&#39;re still struggling to cope with Steph&#39;s imminent demise, don&#39;t fear!  He has plenty of years left to accumulate accolades and rings.  </p>
+
+<p>Maybe you&#39;ll be inspired to improve upon this application by adding more inputs for country of origin, how often you floss, whether or not you look both ways before crossing the street, etc.</p>
+
+<p>If you&#39;re feeling completely dismayed, I sincerely apologize - &#39;twas ne&#39;er my intent.  Maybe <a href="http://www.wikihow.com/Live-a-Long-Life">this</a> will cheer you up.</p>
+
+<p>If that didn&#39;t work, I&#39;m sure <a href="http://l.yimg.com/bt/api/res/1.2/q2JHX2SeaJim1uJ0m0jfxw--/YXBwaWQ9eW5ld3M7aWw9cGxhbmU7cT03NTt3PTYwMA--/http://media.zenfs.com/en/person/Ysports/stephen-curry-basketball-headshot-photo.jpg">this</a> will do the trick.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Why does this matter?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='What sorcery is this?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Fine. I&#39;m dying.'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='But... Steph&#39;s never gonna die!'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
