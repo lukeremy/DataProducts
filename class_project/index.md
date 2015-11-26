@@ -1,15 +1,16 @@
 ---
 title       : The Grim Reaper App
 subtitle    : Find out how long you have left...
-author      : Luke Remy
-job         : 
+author      : Luke Remy 
+job         : https://lukeremy.shinyapps.io/GrimReaper
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : standalone # {standalone, draft}
 knit        : slidify::knit2slides
----
+
+--- 
 
 ## Why does this matter?
 
@@ -43,7 +44,7 @@ See [Wikipedia](http://en.wikipedia.org/wiki/List_of_countries_by_life_expectanc
 --- .class #id 
 
 ## Fine. I'm dying. 
-### But how does this app calculate the date?
+### But how does this app calculate the date?s
 
 While this application is neither sophisticated, elegant, nor well-conceived, it is, perhaps, parsimonious.  This is owed to the fact that it requires but two inputs, namely, birthdate and gender.
 
@@ -84,6 +85,7 @@ Maybe you'll be inspired to improve upon this application by adding more inputs 
 If you're feeling completely dismayed, I sincerely apologize - 'twas ne'er my intent.  Maybe [this](http://www.wikihow.com/Live-a-Long-Life) will cheer you up.
 
 If that didn't work, I'm sure [this](http://l.yimg.com/bt/api/res/1.2/q2JHX2SeaJim1uJ0m0jfxw--/YXBwaWQ9eW5ld3M7aWw9cGxhbmU7cT03NTt3PTYwMA--/http://media.zenfs.com/en/person/Ysports/stephen-curry-basketball-headshot-photo.jpg) will do the trick.
+
 
 
 
